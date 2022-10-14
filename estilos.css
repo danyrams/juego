@@ -1,0 +1,86 @@
+body {
+    background-image: url(img/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jugador{
+    text-align: center;
+    
+
+}
+
+#pc {
+    text-align: right;
+}
+
+
+button{
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 15px;
+    background: none;
+    border-color: white;
+    margin: 5px;
+    
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+
+.seleccion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 5px goldenrod;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: solid 10px;
+    border-color: goldenrod;
+    padding: 8px;
+    margin:0;
+}
+
+#resultado{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#historial{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#victorias{
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+
+#derrotas{
+    text-align: right;
+    font-size: 50px;
+    color: white;
+}
+
+#puntaje{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
